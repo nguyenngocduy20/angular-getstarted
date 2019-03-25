@@ -1,0 +1,58 @@
+.selected {
+    background-color: #CFD8DC !important;
+    color: white;
+}
+
+.heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 500px;
+    cursor: pointer;
+}
+
+.heroes li {
+    cursor: pointer;
+    background-color: #EEE;
+    margin-bottom: 7px;
+    width: 100%;
+    border-radius: 4px;
+    float:left;
+}
+
+.heroes li.selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+}
+
+.heroes li:hover {
+    color: #607D8B;
+    background-color:  #DDD;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #607D8B;
+    color: white;
+    font-size: 14px;
+    float: left;
+    width: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 0 0 0 0;
+    border-radius: 4px 0 0 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ .heroes .content {
+     display: inline;
+     margin-left: 4px;
+     float: left;
+ }
+
+ .hero-unit {
+     display: inline-block;
+     width: 80%;
+     float: left;
+ }
