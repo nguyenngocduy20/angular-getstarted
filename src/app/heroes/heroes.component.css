@@ -1,58 +1,48 @@
+/* HeroesComponent's private CSS styles */
 .selected {
     background-color: #CFD8DC !important;
     color: white;
-}
-
-.heroes {
+  }
+  .heroes {
     margin: 0 0 2em 0;
     list-style-type: none;
     padding: 0;
-    width: 500px;
+    width: 15em;
+  }
+  .heroes li {
     cursor: pointer;
-}
-
-.heroes li {
-    cursor: pointer;
+    position: relative;
+    left: 0;
     background-color: #EEE;
-    margin-bottom: 7px;
-    width: 100%;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
     border-radius: 4px;
-    float:left;
-}
-
-.heroes li.selected:hover {
+  }
+  .heroes li.selected:hover {
     background-color: #BBD8DC !important;
     color: white;
-}
-
-.heroes li:hover {
+  }
+  .heroes li:hover {
     color: #607D8B;
-    background-color:  #DDD;
-}
-
-.badge {
+    background-color: #DDD;
+    left: .1em;
+  }
+  .heroes .text {
+    position: relative;
+    top: -3px;
+  }
+  .heroes .badge {
     display: inline-block;
-    background-color: #607D8B;
+    font-size: small;
     color: white;
-    font-size: 14px;
-    float: left;
-    width: 10%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 6px;
-    padding-right: 6px;
-    margin: 0 0 0 0;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #607D8B;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
     border-radius: 4px 0 0 4px;
-    font-family: 'Courier New', Courier, monospace;
-}
- .heroes .content {
-     display: inline;
-     margin-left: 4px;
-     float: left;
- }
-
- .hero-unit {
-     display: inline-block;
-     width: 80%;
-     float: left;
- }
+  }
